@@ -1,6 +1,6 @@
 const username = prompt('Enter your name');
 const room = prompt('Enter room name you want to join');
-const socket = io('ws://192.168.43.194:3000/chat2', {
+const socket = io('https://https://chatgrp-production.up.railway.app/chat2', {
   query: `username=${username}&room=${room}`,
 });
 // const socket = io('ws://127.0.0.1:3000/chat2',{query : `username=${username}&room=${room}`});

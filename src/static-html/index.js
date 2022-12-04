@@ -10,7 +10,7 @@ function addMessage(message) {
 
 const UserName = prompt('Enter User Name');
 
-const socket = io('https://chatgrp-production.up.railway.app/:3000/');
+const socket = io('https://chatgrp-production.up.railway.app/');
 
 socket.emit('userConnected', UserName);
 

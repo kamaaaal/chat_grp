@@ -76,7 +76,7 @@ body {
 .root .message-box,
 .root #bottom #text-input,
 .root #bottom #send-button {
-  box-shadow: 0.3rem 0.3rem 1rem grey;
+  box-shadow: .2rem 0.2rem .8rem grey;
 }
 /* border style solid  */
 .root #bottom #text-input,

@@ -57,12 +57,18 @@ body {
   border-radius: 0.5rem;
 }
 
+.root .message-box p{
+    font-weight: 500;
+    color: #121212;
+}
+
 .message-sent {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   width: 30vw;
 }
+
 
 .message-received {
   display: flex;

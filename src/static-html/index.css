@@ -90,6 +90,19 @@ body {
   border-style: solid;
 }
 
+address{
+    color : grey;
+    text-align: center;
+    font-style: normal;
+}
+address a {
+    font-style : normal; 
+    text-decoration: none;
+    color : inherit;
+}
+
+
+
 @media (min-width: 480px) {
   .root #bottom #text-input {
     width: 20rem;
